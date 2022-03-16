@@ -7,10 +7,10 @@ git clone https://github.com/Tristan-Smal/Github-Scraper.git
 
 To enter the repository directory use the command:
 
-_cd _
+_cd Github-Scraper_
 
 To install all the requirements needed to run the code on your computer run the following command:
-pip install -r requirements.txt (if you have python2 installed)
+pip install -r requirements.txt (if you have Python3 installed)
 
 <h2>How to use the webpage</h2>
 To host the webpage enter the command:
