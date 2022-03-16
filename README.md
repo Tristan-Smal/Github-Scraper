@@ -3,7 +3,7 @@ Scrape github repositories using a search term
 
 <h1>How run the code</h1>
 To run the code you will have to clone the repository to your computer by entering the following command into terminal:
-git clone 
+git clone https://github.com/Tristan-Smal/Github-Scraper.git
 
 To enter the repository directory use the command:
 
