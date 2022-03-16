@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="../static/style.css">
+		<title>Scraper</title>			
+	</head>
+	
+
+		<body>
+			<header class="header">Github Search App</header>
+			
+			<form class="searchbar" method="GET">
+				<input  type="text" placeholder="Search Github Repositorys" name="q">
+				<button type="submit" class="searchButton" name="Search">Search for results</button>
+			</form>
+			
+			<form action="" method="post">
+				<button type="submit" class="button button1" name="button1" value="button1">Show Scrape results</button>
+				<button type="submit" class="button button2" name="button2" value="button2">Show API results</button>
+			</form>
+			
+			
+			<h1 class="resultsHeader">Results</h1>
+		
+			{% for item in repos %}
+				<p class="results"> {{ item }} </p>
+			{% endfor %}
+	  
+	   </body>
+</html>

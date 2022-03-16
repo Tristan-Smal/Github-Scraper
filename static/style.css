@@ -1,0 +1,88 @@
+	.header {
+	font-style: bold;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	}
+
+	form.searchbar input[type=text] {
+	margin-left: 700px;
+	padding: 10px 100px;
+	font-size: 17px;
+	margin-top: 30px;
+	border: 1px solid grey;
+	background: #f1f1f1;
+	}
+	
+	.searchButton {
+	background-color: Maroon; 
+	color: white;
+	padding: 10px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	transition-duration: 0.5s;
+	border: 2px solid Maroon;
+	cursor: pointer;
+	}
+	.searchButton:hover {
+	background-color: black;
+	color: white;
+	}
+	
+	.button {
+	background-color: #4CAF50; 
+	border-radius: 12px;
+	color: black;
+	padding: 10px 32px;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	margin-top:20px;
+	transition-duration:0.5s;
+	cursor: pointer;
+	}
+	.button1 {
+	margin-left: 790px;
+	background-color: #4CAF50; 
+	color: black; 
+	border: 2px solid #4CAF50;
+	}
+	.button1:hover {
+	background-color: black;
+	color: white;
+	}
+	.button2 {
+	margin-left: 15px;
+	background-color: #4CAF50;
+	color: black; 
+	border: 2px solid #4CAF50;
+	}
+	.button2:hover {
+	background-color: black;
+	color: white;
+	}
+
+	body {
+	background-image: url("https://i.pinimg.com/originals/2e/f9/f6/2ef9f6dfe6ed265addec54a348c20d87.jpg");
+	background-color: #cccccc;
+	}
+
+	.resultsHeader {
+	text-align: center;
+	margin-top: 15px;
+	font-style: bold;
+	font-size: 30px;
+	color: yellow;
+	}
+	.results {
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 12px;
+	font-size: 20px;
+	color:white;
+	width: 700px;
+	border: 3px solid #73AD21;
+	padding: 10px;
+	background: black;
+	}
