@@ -6,7 +6,7 @@
 	}
 
 	form.searchbar input[type=text] {
-	margin-left: 700px;
+	margin-left: 470px;
 	padding: 10px 100px;
 	font-size: 17px;
 	margin-top: 30px;
@@ -43,7 +43,7 @@
 	cursor: pointer;
 	}
 	.button1 {
-	margin-left: 790px;
+	margin-left: 550px;
 	background-color: #4CAF50; 
 	color: black; 
 	border: 2px solid #4CAF50;
